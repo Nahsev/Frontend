@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  font-family: "Outfit", sans-serif;
+}
+
+.author-info {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 16px;
+  color: rgb(55, 65, 81);
+}
+
+.author-info a {
+  text-decoration: none;
+}
+
+
+
+.container{
+  width: 100vw;
+  padding: 36px;
+  display: grid;
+  grid-template-areas: 'img body';
+  width: calc(100vw-72px);
+}
+
+
+.img{
+  grid-area: img;
+  border-radius: 7px;
+  height: 100%;
+  max-height: 650px;
+  object-fit: contain;
+}
+
+.body{
+  margin-left: 52px;
+  grid-area: body;
+}
+.home{
+  font-size: 14px;
+  font-weight: 600;
+}
+.home span{
+  font-weight: 300;
+}
+.text{
+margin: 40px 0;
+}
+.text h1{
+  margin-bottom: 24px;
+  font-size: 32px;
+  font-weight: 600;
+}
+.text p{
+  font-size: 16px;
+  font-weight: 400;
+}
+h2{
+  margin-bottom: 12px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+li{
+  margin: 10px;
+  list-style-position: inside;
+  font-size: 16px;
+  font-weight: 400;
+}
+.description{
+  margin: 40px 0;
+  padding: 24px 6px;
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+  background-color: #F9FAFB;
+}
+
+.description p{
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.blanquita{
+  color: #D2D5DA;
+  margin-bottom: 6px;
+}
+
+.price{
+  display: flex;
+  align-items: center;
+  
+  
+}
+button {
+  
+  padding: 8px 32px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+}
+.color{
+  background-color: #652CD1;
+  margin-right: 10px;
+}
+
+button img{
+height: 16px;
+margin-right: 6px;
+
+
+}
+
+
+@media (max-width:1024px){
+  .description{
+    width: 80%;
+  }
+}
+
+
+@media (max-width:640px){
+  .container{
+    grid-template-areas: 'img'
+    'body';
+    
+  }
+  .img{
+    width: 100%;
+    border-radius: 7px;
+  }
+  .description{
+    width: 90%;
+  }
+  
+}

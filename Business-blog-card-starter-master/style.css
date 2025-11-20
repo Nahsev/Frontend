@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    height: 100vh;
+    background-color: #F2F5F9;
+    color: #111729;
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+  }
+body p {
+  color: #4A5567;
+}
+  .author-info {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 16px;
+    color: rgb(55, 65, 81);
+  }
+
+  .author-info a {
+    color: rgb(55, 65, 81);
+    text-decoration: underline;
+  }
+
+  .container{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color:#FFFFFF;
+    width: 418px;
+    margin-top: 124px;
+    border-radius: 10px;
+  }
+
+
+
+  
+
+  .imgs{
+    height: 280px;
+    
+    position: relative;
+    margin: auto;
+    
+  }
+ 
+.img{
+  border-radius: 10px;
+}
+  .overlay{
+    position: absolute;
+
+    left: 0;
+    bottom: -1px;
+  }
+
+  .textcontainer{
+    margin: 0 32px 24px 32px;
+  }
+
+  .textcontainer h1{
+    margin-bottom: 12px;
+
+  }
+
+.textheader{
+  padding: 0 0 24px 0;
+}
+.textheader h1{
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+}
+  
+.line{
+  height: 1px;
+  width: 100%;
+  background-color: #F2F5F9;
+}
+.coment{
+  margin-top: 24px;
+  display: flex;
+  align-items: center;
+  
+}
+.coment img{
+  border-radius: 50%;
+  width: 44px;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.comenttext{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 12px;
+}
+
+.comenttext h2{
+    font-size: 16px;
+}
+.comenttext p {
+  font-size: 14px;
+}
